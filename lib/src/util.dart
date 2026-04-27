@@ -97,7 +97,7 @@ void accumulate(
 @pragma('vm:prefer-inline')
 int xxh3Avalanche(int h) {
   h ^= h >>> 37;
-  h *= 0x165667919E3779F9;
+  h = (h * 0x165667919E3779F9).toInt();
   return h ^ (h >>> 32);
 }
 

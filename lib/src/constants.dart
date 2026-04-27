@@ -41,27 +41,27 @@ const int kXXHPrime32_3 = 0xC2B2AE3D;
 /// The 64-bit XXH variant prime 1:
 /// 0b1001111000110111011110011011000110000101111010111100101010000111
 /// (this prime is used by XXH3).
-const int kXXHPrime64_1 = 0x9E3779B185EBCA87;
+const int kXXHPrime64_1 = 0x9e3779b185ebc800;
 
 /// The 64-bit XXH variant prime 2:
 /// 0b1100001010110010101011100011110100100111110101001110101101001111
 /// (this prime is used by XXH3).
-const int kXXHPrime64_2 = 0xC2B2AE3D27D4EB4F;
+const int kXXHPrime64_2 = 0xc2b2ae3d27d4e800;
 
 /// The 64-bit XXH variant prime 3:
 /// 0b0001011001010110011001111011000110011110001101110111100111111001
 /// (this prime is used by XXH3).
-const int kXXHPrime64_3 = 0x165667B19E3779F9;
+const int kXXHPrime64_3 = 0x165667b19e377a00;
 
 /// The 64-bit XXH variant prime 4:
 /// 0b1000010111101011110010100111011111000010101100101010111001100011
 /// (this prime is used by XXH3).
-const int kXXHPrime64_4 = 0x85EBCA77C2B2AE63;
+const int kXXHPrime64_4 = 0x85ebca77c2b2b000;
 
 /// The 64-bit XXH variant prime 5:
 /// 0b0010011111010100111010110010111100010110010101100110011111000101
 /// (this prime is used by XXH3).
-const int kXXHPrime64_5 = 0x27D4EB2F165667C5;
+const int kXXHPrime64_5 = 0x27d4eb2f16566800;
 
 /// The length of a stripe, in bytes.
 const int kStripeLength = 64;

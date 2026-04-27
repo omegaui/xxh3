@@ -22,9 +22,9 @@ int _xxh64Avalanche(int h) {
 /// mixed.
 int _xxh3rrmxmx(int h, final int length) {
   h ^= ((h << 49) | (h >>> 15)) ^ ((h << 24) | (h >>> 40));
-  h = (h * 0x9FB21C651E98DF25).toInt();
+  h = (h * 0x9fb21c651e98e000).toInt();
   h ^= (h >>> 35) + length;
-  h = (h * 0x9FB21C651E98DF25).toInt();
+  h = (h * 0x9fb21c651e98e000).toInt();
   return h ^ (h >>> 28);
 }
 
